@@ -13,7 +13,8 @@ Budget for your special life event.
 
 #### User Flow & Wireframe
 
-In progress
+Wireframing
+<img src="./github-images/pennywise-wireframe-landing.png" alt="wireframe" width="500px" />
 
 #### Working Prototype
 
