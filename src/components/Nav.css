@@ -1,0 +1,8 @@
+nav {
+    flex-grow: 7;
+    display: flex;
+}
+
+nav a {
+    margin-left: 20px;
+}
