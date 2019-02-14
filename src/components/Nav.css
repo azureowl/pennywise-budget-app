@@ -1,8 +1,31 @@
-nav {
-    flex-grow: 7;
-    display: flex;
+.overlay {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    width: 200px;
+    height: 234px;
+    padding: 20px 0 0 20px;
+    position: absolute;
+    right: 0;
+    top: 56px;
 }
 
-nav a {
-    margin-left: 20px;
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 140px;
+    height: 190px;
 }
+
+nav ul a {
+    text-decoration: none;
+}
+
+@media (max-width: 200px) {
+    html {
+        font-size: 20%;
+    }
+    .overlay, nav ul {
+      width: 100%;
+    }
+  }
