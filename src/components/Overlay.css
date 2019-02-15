@@ -1,0 +1,25 @@
+.overlay {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    width: 200px;
+    height: 234px;
+    padding: 20px 0 0 20px;
+    position: absolute;
+    right: 0;
+    top: 56px;
+    display: none;
+}
+
+.sm-menu {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .overlay {
+        display: initial;
+    }
+
+    .sm-menu {
+        display: initial;
+    }
+}

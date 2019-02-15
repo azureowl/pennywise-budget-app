@@ -1,9 +1,9 @@
 import React from 'react';
 import './Nav.css'
 
-export default function Nav() {
+export default function Nav(props) {
     return (
-        <nav className="overlay" aria-hidden="false" aria-labelledby="menu">
+        <nav className={props.class}>
             <ul>
                 <li><a href="/">Login</a></li>
                 <li><a href="/">How it works</a></li>
