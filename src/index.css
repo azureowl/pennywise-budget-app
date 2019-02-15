@@ -22,10 +22,6 @@ code {
     monospace;
 }
 
-h1, .fa-bars {
-  color: var(--main-txt);
-}
-
 button {
   cursor: pointer;
 }
@@ -33,7 +29,7 @@ button {
 header,
 section,
 footer {
-    padding-left: 20px;
+    padding: 0 20px;
     width: 100%;
 }
 

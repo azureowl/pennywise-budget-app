@@ -1,10 +1,18 @@
 header {
     background-color: var(--main);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    height: 56px;
     position: relative;
+    padding-bottom: 20px;
+}
+
+h1 {
+    margin-right: 20px;
+}
+
+h1, .fa-bars {
+    color: var(--main-txt);
 }
 
 .menu-btn {
@@ -21,6 +29,13 @@ header {
 }
 
 @media (max-width: 480px) {
+    header {
+        flex-wrap: nowrap;
+        height: 56px;
+        padding-bottom: 0;
+        justify-content: space-between;
+    }
+
     .menu-btn, .menu-btn .fa-bars {
         display: initial;
     }
