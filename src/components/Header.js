@@ -19,7 +19,7 @@ class Header extends React.Component {
     }
 
     render () {
-    let menuState = this.state.expanded ? (<Overlay class="sm-menu" />) : '';
+        let menuState = this.state.expanded ? (<Overlay class="sm-menu" />) : '';
 
         return (
             <header>

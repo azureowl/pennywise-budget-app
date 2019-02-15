@@ -4,7 +4,6 @@ header {
     flex-wrap: wrap;
     align-items: center;
     position: relative;
-    padding-bottom: 20px;
 }
 
 h1 {
@@ -28,7 +27,7 @@ h1, .fa-bars {
     font-size: 2em;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 552px) {
     header {
         flex-wrap: nowrap;
         height: 56px;

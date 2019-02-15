@@ -1,13 +1,20 @@
 nav ul {
     display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 nav li {
     display: inline-block;
+    padding: 0 10px 0 0;
 }
 
 nav ul a {
     text-decoration: none;
+}
+
+nav button {
+    width: 100%;
 }
 
 .cta {
@@ -15,7 +22,29 @@ nav ul a {
 }
 
 .lg-menu {
-    display: initial;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.lg-menu div {
+    flex-grow: 1;
+}
+
+.login-links ul {
+    justify-content: flex-end;
+}
+
+.login {
+    background-color:#fff;
+    border: 1px solid #00b6ff;
+    color: #00b6ff;
+}
+
+.signup {
+    background-color: #00b6ff;
+    color: var(--main-txt);
 }
 
 @media (max-width: 200px) {
@@ -24,14 +53,16 @@ nav ul a {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 552px) {
 
     nav ul {
         flex-direction: column;
+        align-items: unset;
     }
 
     nav li {
         margin: 10px 0;
+        padding: 0;
     }
 
     .lg-menu {

@@ -13,8 +13,8 @@ export default function Nav(props) {
             </div>
             <div className="login-links">
                 <ul>
-                    <li><a className="cta" href="/">Login</a></li>
-                    <li><a className="cta" href="/">Sign Up</a></li>
+                    <li><button className="cta login" href="/">Login</button></li>
+                    <li><button className="cta signup" href="/">Sign Up</button></li>
                 </ul>
             </div>
         </nav>
