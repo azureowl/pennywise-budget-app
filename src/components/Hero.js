@@ -3,7 +3,7 @@ import MainButton from './MainButton';
 
 export default function Hero () {
     return (
-        <div className="main-div">
+        <div className="hero main-div">
             <h2>Budgeting is easy.</h2>
             <MainButton>Sign Up</MainButton>
         </div>

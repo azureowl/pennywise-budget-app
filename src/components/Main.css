@@ -8,6 +8,14 @@ main {
     padding: 10px;
 }
 
+.hero {
+    background: url('./calculator.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: var(--main-txt);
+    height: 400px;
+}
+
 .features div {
     margin-top: 9px;
 }
