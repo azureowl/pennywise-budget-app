@@ -1,4 +1,4 @@
 button {
-    background-color: var(--main);
+    background-color: var(--btn);;
     color: var(--main-txt);
 }

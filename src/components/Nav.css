@@ -38,12 +38,11 @@ nav button {
 
 .login {
     background-color:#fff;
-    border: 1px solid #00b6ff;
-    color: #00b6ff;
+    border: 1px solid var(--secondary-txt);
+    color: var(--secondary-txt);
 }
 
 .signup {
-    background-color: #00b6ff;
     color: var(--main-txt);
 }
 

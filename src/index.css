@@ -1,6 +1,8 @@
 :root {
   --main: #ff722e;
   --main-txt: #fff;
+  --secondary-txt: #0081d2;
+  --btn: #0081d2;
 }
 
 * {
@@ -47,5 +49,5 @@ button, a {
 }
 
 a {
-  color: #2089d8;
+  color: var(--secondary-txt);
 }

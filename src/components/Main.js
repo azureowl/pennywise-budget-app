@@ -8,7 +8,6 @@ export default function Main () {
     return (
         <main>
             <Hero />
-            <h2>Features</h2>
             <Features />
         </main>
     )
