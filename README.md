@@ -13,7 +13,14 @@ Budget for your special life event.
 
 #### User Flow & Wireframe
 
-Wireframing
+Mockup & Wireframing
+
+Mobile
+
+<img src="./github-images/wireframe-mobile.png" alt="wireframe" width="500px" />
+
+Wireframing for Desktop
+
 <img src="./github-images/pennywise-wireframe-landing.png" alt="wireframe" width="500px" />
 
 #### Working Prototype

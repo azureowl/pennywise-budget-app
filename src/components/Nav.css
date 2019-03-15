@@ -61,8 +61,11 @@ nav button {
     }
 
     nav li {
-        margin: 10px 0;
-        padding: 0;
+        padding: 10px;
+    }
+
+    nav li:not(.no-hover):hover {
+        background-color: #e8e8e8;
     }
 
     .lg-menu {

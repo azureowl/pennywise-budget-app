@@ -1,0 +1,13 @@
+main {
+    padding: 12px;
+}
+
+.main-div {
+    background-color: blue;
+    height: 200px;
+    padding: 10px;
+}
+
+.features div {
+    margin-top: 9px;
+}

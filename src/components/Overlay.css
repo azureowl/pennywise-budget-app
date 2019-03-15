@@ -3,7 +3,6 @@
     border: 1px solid #e0e0e0;
     width: 200px;
     height: auto;
-    padding-top: 10px;
     position: absolute;
     right: 0;
     top: 56px;
@@ -15,7 +14,7 @@
 }
 
 .sm-menu div {
-    padding: 0 10px;
+    
 }
 
 @media (max-width: 552px) {
