@@ -17,11 +17,14 @@ Mockup & Wireframing
 
 Mobile
 
-<img src="./github-images/wireframe-mobile.png" alt="wireframe" width="500px" />
+<img src="./github-images/wireframe-mobile.png" alt="wireframe" width="500px" />  
+
+
+<img src="./github-images/mobile.png" alt="wireframe" width="100px" />
 
 Wireframing for Desktop
 
-<img src="./github-images/pennywise-wireframe-landing.png" alt="wireframe" width="500px" />
+<img src="./github-images/desktop.png" alt="wireframe" width="300px" />
 
 #### Working Prototype
 
