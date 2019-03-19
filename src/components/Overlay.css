@@ -14,12 +14,13 @@
 }
 
 .sm-menu div {
-    
+
 }
 
 @media (max-width: 552px) {
     .overlay {
         display: initial;
+        z-index: 1;
     }
 
     .sm-menu {
