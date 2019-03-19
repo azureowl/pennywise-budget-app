@@ -1,6 +1,8 @@
 import React from 'react';
 import './Nav.css'
 
+import MainButton from './MainButton'
+
 export default function Nav(props) {
     return (
         <nav className={props.class}>
@@ -14,7 +16,7 @@ export default function Nav(props) {
             <div className="login-links">
                 <ul>
                     <li className='no-hover'><button className="cta login" href="/">Login</button></li>
-                    <li className='no-hover'><button className="cta signup" href="/">Sign Up</button></li>
+                    <li className='no-hover'><MainButton className="cta signup" href="/">Sign Up</MainButton></li>
                 </ul>
             </div>
         </nav>

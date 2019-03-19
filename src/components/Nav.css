@@ -7,10 +7,31 @@ nav ul {
 nav li {
     display: inline-block;
     padding: 0 10px 0 0;
+    position: relative;
+}
+
+nav li::after {
+    content: '';
+    border-bottom: 2px solid var(--btnHover);
+    position: absolute;
+    bottom: -1px;
+    left: calc(50% - 5px);
+    transition: all .3s;
+    width: 0;
+    transform: translateX(-50%);
+}
+
+nav li:hover::after {
+    width: 90%;
+    transition: all .3s;
 }
 
 nav ul a {
     text-decoration: none;
+}
+
+nav li a:hover {
+    color: var(--btnHover);
 }
 
 nav button {
@@ -38,12 +59,11 @@ nav button {
 
 .login {
     background-color:#fff;
-    border: 1px solid #00b6ff;
-    color: #00b6ff;
+    border: 1px solid var(--secondary-txt);
+    color: var(--secondary-txt);
 }
 
 .signup {
-    background-color: #00b6ff;
     color: var(--main-txt);
 }
 

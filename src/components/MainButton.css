@@ -1,4 +1,12 @@
 button {
-    background-color: var(--main);
+    background-color: var(--btn);
     color: var(--main-txt);
+}
+
+button:hover:not(.login) {
+    background-color: var(--btnHover);
+}
+
+button.login:hover {
+    background-color: #f3f3f3;
 }
