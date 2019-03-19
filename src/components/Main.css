@@ -1,4 +1,4 @@
-main > * {
+main > *:not(.hero) {
     margin-top: 30px;
 }
 
